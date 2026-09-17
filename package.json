@@ -1,0 +1,21 @@
+{
+  "name": "zenso-plugin-template",
+  "version": "0.0.3",
+  "description": "zenso.ink Plugin Template",
+  "author": {
+    "name": "zenso.ink",
+    "url": "https://zenso.ink"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.0",
+    "@zenso/zenso-vite-plugin": "^0.1.4",
+    "typescript": "^5.2.2",
+    "vite": "^6.0.0"
+  }
+}
