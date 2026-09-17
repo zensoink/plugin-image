@@ -1,6 +1,6 @@
 {
   "$schema": "https://schemas.zenso.ink/v1/plugin-manifest.schema.json",
-  "id": "zenso/plugin-starter",
+  "id": "zenso/plugin-image",
   "thumbnail": "assets/logo.png",
   "schema_version": 1,
   "core_min": "0.0.0",
@@ -9,7 +9,38 @@
   ],
   "config_schema": {
     "type": "object",
-    "required": [],
-    "properties":{}
-  }
+    "required": [
+      "url"
+    ],
+    "properties": {
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Image URL (e.g. https://picsum.photos/800/480 or direct photo link)"
+      },
+      "fit": {
+        "type": "string",
+        "enum": [
+          "cover",
+          "contain"
+        ],
+        "default": "cover",
+        "description": "Fit mode: cover fills the frame, contain preserves aspect ratio"
+      },
+      "grayscale": {
+        "type": "boolean",
+        "default": false,
+        "description": "Render photo in grayscale for e-ink panels"
+      }
+    }
+  },
+  "data_sources": [
+    {
+      "id": "image",
+      "type": "image",
+      "config": {
+        "url_field": "url"
+      }
+    }
+  ]
 }

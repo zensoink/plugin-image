@@ -1,7 +1,7 @@
 {
-  "name": "zenso-plugin-template",
-  "version": "0.0.3",
-  "description": "zenso.ink Plugin Template",
+  "name": "plugin-image",
+  "version": "0.1.0",
+  "description": "Image Display Plugin for zenso.ink e-ink panels",
   "author": {
     "name": "zenso.ink",
     "url": "https://zenso.ink"
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.5.0",
-    "@zenso/zenso-vite-plugin": "^0.1.4",
+    "@zenso/vite-plugin": "^0.1.6",
     "typescript": "^5.2.2",
     "vite": "^6.0.0"
   }
