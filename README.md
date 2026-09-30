@@ -61,4 +61,6 @@ npm run build
 
 ## 📄 License
 
-MIT © [zenso.ink](https://zenso.ink)
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+As an official Zenso plugin, this repository serves as a permissive reference implementation for building widgets with the Zenso platform.
