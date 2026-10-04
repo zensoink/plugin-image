@@ -4,9 +4,6 @@
   "thumbnail": "assets/logo.png",
   "schema_version": 1,
   "core_min": "0.0.0",
-  "capabilities": [
-    "script"
-  ],
   "config_schema": {
     "type": "object",
     "required": [
